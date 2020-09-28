@@ -9,6 +9,8 @@ I'm a simple NextJS boilerplate written in [Typescript](https://www.typescriptla
 
 Some additional features built-in: Dark mode switcher, Highlighted, LinkText and Typography components.
 
+[Demo](https://nexts-boilerplate.vercel.app/)
+
 ## How to get started
 
 Clone the repository
