@@ -1,4 +1,4 @@
-# NextJS Boilerplate (with Typescript)
+# NextJS Boilerplate (with Typescript) [WIP]
 
 <p align="left">
     <img src="https://img.shields.io/github/languages/top/arthurvdiniz/nexts-boilerplate" />
