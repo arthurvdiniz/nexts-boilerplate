@@ -11,9 +11,9 @@
     "storybook": "start-storybook -s ./public -p 9001"
   },
   "dependencies": {
-    "next": "9.5.2",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "next": "^10.0.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "react-visibility-sensor": "^5.1.1",
     "styled-components": "^5.1.1",
     "use-dark-mode": "^2.3.1"
