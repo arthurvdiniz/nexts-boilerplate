@@ -21,7 +21,7 @@ export default function Home(): React.ReactElement {
           Hello! 🤙
         </Typography>
         <Typography className="subtitle" variant={TypographyVariant.Subtitle}>
-          I'm a simple{' '}
+          I&apos;m a simple{' '}
           <LinkText variant={LinkTextVariant.External} href="https://nextjs.org/" target="_blank" rel="noreferrer">
             NextJS
           </LinkText>{' '}
