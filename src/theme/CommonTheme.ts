@@ -1,7 +1,13 @@
-export enum Colors {
-  white = '#FFFFFF',
-  black = '#000000',
-  transparent = 'rgba(255, 255, 255, 0)'
+export const Colors = {
+  white: {
+    default: '#FFFFFF'
+  },
+  black: {
+    default: '#000000'
+  },
+  transparent: {
+    default: 'rgba(255, 255, 255, 0)'
+  }
 }
 
 export enum FontSize {
@@ -12,7 +18,7 @@ export enum FontSize {
   title = '48px',
   titleMedium = '40px',
   titleSmall = '32px',
-  titleSmallest = '28px',
+  titleSmallest = '28px'
 }
 
 export enum Shadows {
@@ -59,20 +65,20 @@ export interface Theme extends CommomTheme {
 export const lightTheme = {
   ...theme,
   colors: {
-    primary: Colors.black,
-    background: Colors.white,
-    highlighted: Colors.black,
-    transparent: Colors.transparent
+    primary: Colors.black.default,
+    background: Colors.white.default,
+    highlighted: Colors.black.default,
+    transparent: Colors.transparent.default
   }
 }
 
 export const darkTheme = {
   ...theme,
   colors: {
-    primary: Colors.white,
-    background: Colors.black,
-    highlighted: Colors.white,
-    transparent: Colors.transparent
+    primary: Colors.white.default,
+    background: Colors.black.default,
+    highlighted: Colors.white.default,
+    transparent: Colors.transparent.default
   }
 }
 
